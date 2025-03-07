@@ -28,9 +28,9 @@ const Hero = () => {
                 Bulding <span className="underline">Brands</span> & <span className="underline">Products</span>
           </span>
         </p>
-        <p className="hero_tag text-gray_gradient z-10">
+        <h1 className="hero_tag text-gray_gradient z-10">
               Crafting Amazing Online Presence
-        </p>
+        </h1>
       </div>
       <div className="w-full h-full absolute inset-0">
        {/* <Leva /> */}
