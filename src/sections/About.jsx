@@ -56,8 +56,8 @@ const About = () => {
                 </div>
             </div>
             <div className='col-span-1 xl:row-span-3'>
-            <div className='grid-container'>
-                <img src='/assets/grid2.png' alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain' />
+            <div className='grid-container items-center'>
+                <img src='/assets/grid2.png' alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain items-center' />
                 <div>
                     <p className='grid-headtext'>Tech Stack</p>
                     <p className='grid-subtext'>
@@ -118,6 +118,15 @@ const About = () => {
                                 <p className='grid-headtext'>
                                     +254-113,331,552
                                 </p>
+                            </div>
+                            <div className='flex flex-col items-center'>
+                            <div className='flex w-full items-center justify-between pb-5'>
+                                    <p className='grid-headtext underline'>Scan QR To whatsapp Me</p>
+                                    <a className="social-icon hover:cursor-pointer" href="https://wa.link/om8aa8" target="_blank">
+                                        <img src="/assets/whatsapp.png" alt="whatsapp image" />
+                                    </a>
+                                </div>
+                                <img src="/assets/whatsappScan.png" className='w-1/4 h-1/4' alt="scan for whatsapp" /> 
                             </div>
                     </div>
                 </div>
