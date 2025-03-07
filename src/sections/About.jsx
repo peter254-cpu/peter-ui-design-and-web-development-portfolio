@@ -48,7 +48,7 @@ const About = () => {
                 <div className='grid-container'>
                     <img src='/assets/grid1.png' className='w-full sm:h-[276px] h-fit object-contain' />
                     <div>
-                        <p className='grid-headtext'>Hi, I&lsquo;m Peter</p>
+                        <h4 className='grid-headtext'>Hi, I&lsquo;m Peter</h4>
                         <p className='grid-subtext'>
                             I am a versatile Developer and UI Designer with 5 years of experience specializing in creating seamless, user-friendly web applications. Skilled in Figma, Django, Node.js, Express, Tailwind CSS, and React, I bring a unique blend of design and development expertise to every project. My goal is to transform complex ideas into intuitive, visually appealing digital experiences that captivate users and drive engagement
                         </p>
@@ -59,7 +59,7 @@ const About = () => {
             <div className='grid-container items-center'>
                 <img src='/assets/grid2.png' alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain items-center' />
                 <div>
-                    <p className='grid-headtext'>Tech Stack</p>
+                    <h4 className='grid-headtext'>Tech Stack</h4>
                     <p className='grid-subtext'>
                         I specialize in designing user-friendly interfaces with Figma and building robust web applications using Django, Node.js, and Express. I also style with Tailwind CSS and create dynamic UIs with React.
                     </p>
@@ -93,9 +93,9 @@ const About = () => {
                 <div className='grid-container'>
                     <img src='/assets/grid3.jpg' alt='grid2 img' className='min-w-full sm:h-[266px] h-fit object-contain rounded-lg' />
                     <div>
-                        <p className='grid-headtext'>
+                        <h4 className='grid-headtext'>
                             My passion for Coding
-                        </p>
+                        </h4>
                         <p className='grid-subtext'>
                          My passion for technology transcends the mere act of coding—it&lsquo;s about solving complex problems and creating seamless digital experiences that connect people. This deep-rooted love for innovation drives me to constantly refine my skills and embrace new challenges, ultimately delivering exceptional solutions that stand out in a rapidly evolving tech landscape.
                         </p>
@@ -106,9 +106,9 @@ const About = () => {
                 <div className='grid-container flex items-center'>
                     <img src='assets/grid4.png' alt='grid4' className='w-full md:h-[126px] sm:h-[276px] h-fit  object-cover sm:object-top' />
                     <div className='space-y-2'>
-                            <p className='grid-subtext text-center text-underline'>
+                            <h4 className='grid-subtext text-center text-underline'>
                                 Contact Me
-                            </p>
+                            </h4>
                             <div className='copy-container' onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy email' />
                                 <p className='grid-headtext'>peterslap67@gmail.com</p>

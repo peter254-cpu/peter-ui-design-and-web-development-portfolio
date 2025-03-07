@@ -23,9 +23,9 @@ const Projects = () => {
   return (
     <section className='c-space my-20' id="work">
         <div className='flex items-center flex-col text-center '>
-        <p className='head-text underline'>
+        <h3 className='head-text underline'>
             Notable Recent Solo Projects
-        </p>
+        </h3>
         <p className='text-white  mt-2  '>
             Please note that most of this projects are hosted on free hosting site hence the server sleeps with inactivity 
             <span className='underline'> (has a downtime of about 50 seconds)</span>
