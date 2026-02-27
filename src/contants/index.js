@@ -157,8 +157,8 @@ export const navLinks = [
     },
     {
       title: 'Authentication Starter Kit',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-      subdesc:'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      desc: 'An advanced email authentication starter kit that handles all that is needed to let an app user use their email to login and logout of the application.',
+      subdesc:'This includes email validation using an otp code sent to the user via email to ensure the email they are trying to register or access their account through is correctly typed out/belongs to them the kit follows best practices to ensure to unauthorised access to users information.',
       href: 'https://authentication-starter-kit.vercel.app/',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',

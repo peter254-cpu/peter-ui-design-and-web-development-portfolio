@@ -46,7 +46,7 @@ const Clients = () => {
       <h3 className="head-text text-center pt-6">
         What Others Think About Me
       </h3>
-      <div className="mt-16 w-full h-full">
+      <div className="mt-16 w-full h-full hover:bg-black-100 rounded-2xl">
         {/* slick-carousel */}
         <div className="slick-carousel">
           {clientReviews.map(({id, name, review, img, position}) => (
