@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <section className="w-full  " id="footer">
-        <div className="flex flex-col bg-gray-950 items-center lg:flex-row lg:justify-between ">
+        <div className="flex flex-col bg-black-200 items-center lg:flex-row lg:justify-between bt-gray-900">
             <div className="pt-7 flex justify-between items-center p-4 mr-6">
             <div className="text-gray-200 flex gap-2">
                 <p>Terms $ Conditions</p>

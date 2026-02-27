@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <section className='c-space my-20' id="work">
         <div className='flex items-center flex-col text-center '>
-        <h3 className='head-text underline'>
+        <h3 className='head-text'>
             Notable Recent Solo Projects
         </h3>
         <p className='text-white  mt-2  '>
@@ -73,14 +73,14 @@ const Projects = () => {
                     </button>
                 </div>
             </div>
-            <div className="border border-gray-600 bg-gray-900 rounded-lg h-96 md:h-full ">
+            <div className="border border-gray-600 noisy rounded-lg h-96 md:h-full ">
                 <Canvas>
                     <ambientLight intensity={Math.PI / 2} />
                     <directionalLight position={[10, 10, 5]} />
                     <Center>
                         <Suspense fallback={<CanvasLoader />}>
                             <group 
-                               scale={2} 
+                               scale={2.22} 
                                position={[0, -3, 0]}
                                rotation={[0, -0.1, 0]}
                             >

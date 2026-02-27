@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -42,7 +42,7 @@ const Clients = () => {
   }, []); // Empty array to ensure this effect runs only once when the component mounts
 
   return (
-    <section className="c-space my-20 bg-gray-950 p-10 m-5 rounded-lg z-10 shadow-2xl shadow-purple-950">
+    <section className="c-space my-20 noisy p-10 m-5 rounded-lg z-10 shadow-2xl shadow-black-600">
       <h3 className="head-text text-center pt-6">
         What Others Think About Me
       </h3>
@@ -58,11 +58,11 @@ const Clients = () => {
                   className="w-24 h-24 rounded-full object-cover"
                 />
               </div>
-              <div className="text-2xl font-bold text-gray-400 text-center">{name}</div>
-              <div className="font-md text-xl text-gray-300 text-center">{position}</div>
-              <div className="font-normal text-center text-gray-100 pb-6">
+              <p className="text-2xl font-bold text-gray-400 text-center">{name}</p>
+              <p className="font-md text-xl text-gray-300 text-center">{position}</p>
+              <p className="font-normal text-center text-gray-100 pb-6">
                 {review}
-              </div>
+              </p>
             </div>
           ))}
         </div>

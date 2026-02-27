@@ -35,9 +35,8 @@ const Contact = () => {
         email: '',
         message: ''
     })
-    } catch (error) {
+    } catch {
         setLoading(false);
-        console.error(error);
         toast.error("Something went wrong");
     }
     setForm({})
@@ -46,13 +45,12 @@ const Contact = () => {
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
         <motion.div 
           variants={slideIn('left', 'tween', 0.2, 1)}
-          className="flex-[0.75] bg-gray-950 p-8 roundend-2xl"
+          className="flex-[0.75] bg-black-600 p-8 roundend-2xl"
           >
           
           <h3 className="head-text text-center">Hit Me Up</h3>
                 <p className="text-lg text-white-600 mt-3">
-                    Wheather you are looking to create a software as a service(SAAS) platform or build an entire e-commerce
-                     platform.  I&lsquo;m here to help..!
+                    Wheather you are looking to only list your services online or want an entire ecommerce platform built.  I&lsquo;m here to help..!
                 </p>
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
                     <label className="space-y-3">
