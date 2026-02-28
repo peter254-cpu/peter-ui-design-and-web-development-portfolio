@@ -80,7 +80,7 @@ const About = () => {
                                 />
                             </div>
                             <div>
-                                <p className='grid-headtext text-center'>User Centric, Maintainable And Secure Solutions</p>
+                                <h4 className='grid-headtext text-center'>User Centric, Maintainable And Secure Solutions</h4>
                                 <p className='grid-subtext mb-5 text-center'>
                                     An effective software product is a product that is usable by the target audience a product that is esay to maintain and most importantly a product that does not lead to loses due to insecure development that is why I make it a point to always stay upto-date with current trends in usability, security and code maintance practices
                                 </p>
@@ -107,27 +107,27 @@ const About = () => {
                         <div className='grid-container flex items-center'>
                             <img src='assets/grid4.png' alt='grid4' className='w-full md:h-[126px] sm:h-[276px] h-fit  object-cover sm:object-top' />
                             <div className='space-y-2'>
-                                <h4 className='grid-subtext text-center text-underline'>
+                                <h4 className='grid-headtext text-center text-underline'>
                                     Contact Me
                                 </h4>
                                 <div className='copy-container' onClick={handleCopy}>
                                     <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy email' />
-                                    <p className='grid-headtext'>peterslap67@gmail.com</p>
+                                    <p className='grid-subtext'>peterkiruhi26@gmail.com</p>
                                 </div>
                                 <div className='copy-container' onClick={copyPhoneNumber}>
                                     <img src={phoneNumber ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy email' />
-                                    <p className='grid-headtext'>
+                                    <p className='grid-subtext'>
                                         +254-113,331,552
                                     </p>
                                 </div>
                                 <div className='flex flex-col items-center'>
-                                    <div className='flex w-full items-center justify-between pb-5'>
-                                        <p className='grid-headtext underline'>Scan QR To whatsapp Me</p>
+                                    <div className='flex w-full items-center justify-around pb-2'>
+                                        <p className='grid-subtext'>Scan QR To whatsapp Me</p>
                                         <a className="social-icon hover:cursor-pointer" href="https://wa.link/om8aa8" target="_blank">
                                             <img src="/assets/whatsapp.png" alt="whatsapp image" />
                                         </a>
                                     </div>
-                                    <img src="/assets/whatsappScan.png" className='w-1/4 h-1/4' alt="scan for whatsapp" />
+                                    <img src="/assets/whatsappScan.png" className='w-1/2 h-1/2' alt="scan for whatsapp" />
                                 </div>
                             </div>
                         </div>
