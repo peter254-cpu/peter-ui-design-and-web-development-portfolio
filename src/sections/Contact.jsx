@@ -28,18 +28,17 @@ const Contact = () => {
             to_email: 'peterslap67@gmail.com',
             message: form.message
         }, 'JG5WM0dKQoPy02Emd');
-        setLoading(false);
         toast.success("Your Message Has been sent successfully");
-    setForm({
-        name: '',
-        email: '',
-        message: ''
-    })
+        setForm({
+            name: '',
+            email: '',
+            message: ''
+        })
     } catch {
-        setLoading(false);
         toast.error("Something went wrong");
+    } finally {
+        setLoading(false);
     }
-    setForm({})
 }
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
