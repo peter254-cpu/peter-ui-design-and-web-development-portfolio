@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unknown-property */
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
-import { useVideoTexture ,useTexture} from "@react-three/drei"
+import { useTexture} from "@react-three/drei"
 
 
 const DemoComputer = (props) => {
