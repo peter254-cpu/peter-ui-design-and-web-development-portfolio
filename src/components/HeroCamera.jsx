@@ -2,6 +2,7 @@ import { useFrame } from "@react-three/fiber";
 import { useRef, useState, useEffect } from "react";
 import { useMediaQuery } from 'react-responsive'; // Import useMediaQuery from the library
 
+// eslint-disable-next-line react/prop-types
 const HeroCamera = ({ children }) => {
   const groupRef = useRef();
   const [initialRotationCompleted, setInitialRotationCompleted] = useState(false);

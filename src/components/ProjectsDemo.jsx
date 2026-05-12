@@ -1,14 +1,13 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
 import  { useEffect, useRef } from 'react'
-import { useGLTF, useAnimations, useVideoTexture } from '@react-three/drei'
+import { useGLTF, useVideoTexture } from '@react-three/drei'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
 const  ProjectsDemo = (props) => {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/computer.glb')
-  const { actions } = useAnimations(animations, group)
+  const { nodes, materials } = useGLTF('/models/computer.glb')
   const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4')
   useGSAP(() => {
     gsap.from(group.current.rotation, {

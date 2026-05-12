@@ -98,7 +98,7 @@ const About = () => {
                                     My passion for Coding
                                 </h4>
                                 <p className='grid-subtext'>
-                                    My passion for technology transcends the mere act of coding—it&lsquo;s about solving complex problems and creating seamless digital experiences that connect people. This deep-rooted love for innovation drives me to constantly refine my skills and embrace new challenges, ultimately delivering exceptional solutions that stand out in a rapidly evolving tech landscape.
+                                    My passion for tech transcends the mere act of coding—it&lsquo;s about solving complex problems and creating seamless digital experiences that connect people. This deep-rooted love for innovation drives me to constantly refine my skills and embrace new challenges, ultimately delivering exceptional solutions that stand out in the rapidly evolving tech landscape.
                                 </p>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const About = () => {
                             <img src='assets/grid4.png' alt='grid4' className='w-full md:h-[126px] sm:h-[276px] h-fit  object-cover sm:object-top' />
                             <div className='space-y-2'>
                                 <h4 className='grid-headtext text-center text-underline'>
-                                    Contact Me
+                                    Reach Me @
                                 </h4>
                                 <div className='copy-container' onClick={handleCopy}>
                                     <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy email' />
@@ -117,7 +117,7 @@ const About = () => {
                                 <div className='copy-container' onClick={copyPhoneNumber}>
                                     <img src={phoneNumber ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy email' />
                                     <p className='grid-subtext'>
-                                        +254-113,331,552
+                                        +254-113,316,552
                                     </p>
                                 </div>
                                 <div className='flex flex-col items-center'>

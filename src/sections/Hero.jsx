@@ -21,15 +21,16 @@ const Hero = () => {
   return (
     <section className="min-h-screen w-full flex flex-col" id="home">
       <div className="w-full mx-auto flex flex-col mt-36 md:mt-40 xl:mt-28 xsl:mt-22 c-space gap-3">
-        <p className="sm:text-3xl text-2xl text-white text-center z-10 font-medium  font-generalsans">
-          Hello,<span className="waving-hand"> 👋</span> I&lsquo;m  <a  href="#about" className="text-blue-100 hover:text-white cursor-pointer text-bold">{"  "}Peter</a>
-          <span className="hidden xl:block text-gray_gradient mt-2">
-                Bulding Brands & Products
-          </span>
+        <p className="sm:text-3xl text-2xl text-gray_gradient text-center z-10 font-medium  font-generalsans">
+          Hello,<span className="waving-hand text-white" > 👋</span><a  href="#about" className="text-blue-100 hover:text-white cursor-pointer text-bold">{"  "}Peter</a>
+            {" "} here
         </p>
         <h1 className="hero_tag text-gray_gradient z-10">
-              Crafting Amazing Online Presence
+              Bulding Brands And Products
         </h1>
+        <p className="text-center hidden xl:block text-gray_gradient mt-0">
+            Let Us Together Craft An Amazing Online Presence That Suites You
+        </p>
       </div>
       <div className="w-full h-full absolute inset-0">
        {/* <Leva /> */}
